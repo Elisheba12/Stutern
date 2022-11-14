@@ -2,7 +2,7 @@ body {
     background-color: white;
 }
 
-.love {
+#love {
     display: flex;
     background-color: pink;
     width: 93.5%;
