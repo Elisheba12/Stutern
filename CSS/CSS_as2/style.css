@@ -1,18 +1,39 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 .love {
     display: flex;
+    background-color: pink;
+    width: 93.5%;
+    margin: 150px 50px;
+}
+
+.likes {
+    width: 500px;
+    padding: 50px;
+    border: 1px outset;
+    margin: 20px 5px 20px 20px;
+    background-color: grey;
     color: white;
-}
-
-ol {
-    width: 400px;
+    line-height: 20px;
 
 }
 
-ul {
-    width: 400px;
+.dislikes {
+    width: 500px;
+    padding: 41px 41px;
+    border: 1px outset;
+    margin: 20px 5px 20px 20px;
+    background-color: grey;
+    color: white;
+    line-height: 20px;
 }
 
+li {
+    padding-top: 5px;
+}
+
+.align {
+    text-align: center;
+}
