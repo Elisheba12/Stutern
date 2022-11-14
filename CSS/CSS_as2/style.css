@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+
+.love {
+    display: flex;
+    color: white;
+}
+
+ol {
+    width: 400px;
+
+}
+
+ul {
+    width: 400px;
+}
+

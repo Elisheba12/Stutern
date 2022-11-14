@@ -1,0 +1,55 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.external_styled_list img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%
+}
+
+.external_styled_list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 300px;
+    margin: auto;
+}
+
+.external_styled_list li {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.external_styled_list .red {
+    color: red;
+}
+
+.external_styled_list .blue {
+    color: blue;
+}
+
+.external_styled_list .yellow {
+    color: yellow;
+}
+
+.external_styled_list .green {
+    color: green;
+}
+
+.external_styled_list .orange {
+    color: orange;
+}
+
+.external_styled_list .purple {
+    color: purple;
+}
