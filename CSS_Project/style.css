@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(image9.jpg);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+}
+
+div.wrapper {
+    background-color: rgba(237, 239, 241, 255);
+    padding: 10px 50px;
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 15px;
+    font: 12px;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+nav.nav .name {
+    font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul.navigation {
+    display: flex;
+    font-size: 12px;
+}
+
+ul.navigation li {
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+ul.navigation li a {
+    color: black;
+}
+
+ul.navigation li button {
+    color: white;
+    background-color: black;
+    padding: 4px 12px;
+    margin-top: -5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.intro-image img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+div.intro {
+    margin-bottom: 40px;
+}
+
+div.intro-text {
+    margin-left: 30px;
+    width: 375px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+div.intro-text h1{
+    font-size: 40px;
+}
+div.about {
+    justify-content: space-between;
+    /* horizontal plane */
+    align-items: center;
+    /* vertical plane */
+}
+
+div.about-text {
+    width: 500px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+div.about-skills span {
+    display: flex;
+    margin-left: 100px;
+    width: 110%;
+}
+
+div.about-skills span li {
+    margin: 4px;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+div.about-skills {
+    margin: 5px;
+}
